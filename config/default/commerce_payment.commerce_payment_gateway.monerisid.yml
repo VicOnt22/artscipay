@@ -1,0 +1,26 @@
+uuid: 6a05abda-a2af-4d54-a136-0e40d6080c24
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_moneris_checkout
+id: monerisid
+label: monerisId
+weight: null
+plugin: moneris_checkout
+configuration:
+  display_label: 'Moneris Checkout'
+  mode: qa
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  store_id: store3
+  api_token: yesguy
+  checkout_id: chkt38UABtore3
+  country_code: CA
+  order_number_strategy: order_id_timestamp
+  api_logging:
+    request: request
+    response: response
+conditions: {  }
+conditionOperator: OR

@@ -23,10 +23,7 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
-        "drupal/devel": "^5.1",
         "drupal/inline_entity_form": "^1.0@RC",
-        "drupal/rules": "3.x-dev@dev",
-        "drupal/typed_data": "^1.0@beta",
         "drush/drush": "^11.1",
         "smmccabe/moneris": "^1.1"
     },

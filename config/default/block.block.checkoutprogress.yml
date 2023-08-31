@@ -1,0 +1,20 @@
+uuid: 42104856-7a6d-498c-bfdb-624016adfba6
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+  theme:
+    - olivero
+id: checkoutprogress
+theme: olivero
+region: content_above
+weight: 0
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Checkout progress'
+  label_display: visible
+  provider: commerce_checkout
+visibility: {  }
