@@ -20,9 +20,9 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/commerce": "^2.36",
         "drupal/commerce_moneris_checkout": "^1.0",
-        "drupal/core-composer-scaffold": "^9.5",
-        "drupal/core-project-message": "^9.5",
-        "drupal/core-recommended": "^9.5",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-project-message": "^10.1",
+        "drupal/core-recommended": "^10.1",
         "drupal/inline_entity_form": "^1.0@RC",
         "drush/drush": "^11.1",
         "smmccabe/moneris": "^1.1"
