@@ -1,0 +1,5 @@
+services:
+  logger.channel.commerce_moneris_checkout:
+    class: Drupal\Core\Logger\LoggerChannel
+    factory: logger.factory:get
+    arguments: ['commerce_moneris_checkout']

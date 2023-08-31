@@ -1,0 +1,23 @@
+commerce_payment.commerce_payment_gateway.plugin.moneris_checkout:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    store_id:
+      type: string
+      label: 'Store ID'
+    api_token:
+      type: string
+      label: 'API token'
+    checkout_id:
+      type: string
+      label: 'Checkout ID'
+    country_code:
+      type: string
+      label: 'Country code'
+    order_number_strategy:
+      type: string
+      label: 'Order number strategy'
+    api_logging:
+      type: sequence
+      label: 'API logging'
+      sequence:
+        type: string

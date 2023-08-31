@@ -1,0 +1,12 @@
+name: Commerce Moneris Checkout
+type: module
+description: Integration with Moneris Checkout
+package: Commerce (contrib)
+core_version_requirement: ^9 || ^10
+dependencies:
+  - commerce:commerce_payment
+
+# Information added by Drupal.org packaging script on 2023-08-14
+version: '1.0.1'
+project: 'commerce_moneris_checkout'
+datestamp: 1692026768

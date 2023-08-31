@@ -1,0 +1,31 @@
+moneris_checkout:
+  js:
+    js/commerce_moneris_checkout.js: { }
+  css:
+    component:
+      css/commerce_moneris_checkout.css: { }
+  dependencies:
+    - core/jquery
+    - core/once
+    - core/drupal
+    - core/drupalSettings
+
+moneris_checkout_qa:
+  remote: https://gatewayt.moneris.com/chktv2/js/chkt_v2.00.js
+  version: 1.0.0
+  license:
+    name: MIT
+    url: https://gatewayt.moneris.com/
+    gpl-compatible: true
+  js:
+    https://gatewayt.moneris.com/chktv2/js/chkt_v2.00.js: { type: external, minified: true }
+
+moneris_checkout_prod:
+  remote: https://gateway.moneris.com/chktv2/js/chkt_v2.00.js
+  version: 1.0.0
+  license:
+    name: MIT
+    url: https://gatewayt.moneris.com/
+    gpl-compatible: true
+  js:
+    https://gateway.moneris.com/chktv2/js/chkt_v2.00.js: { type: external, minified: true }

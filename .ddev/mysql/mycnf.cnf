@@ -1,0 +1,4 @@
+[mysqld]
+max_allowed_packet=356M
+tmp_table_size=128M
+max_heap_table_size=128M

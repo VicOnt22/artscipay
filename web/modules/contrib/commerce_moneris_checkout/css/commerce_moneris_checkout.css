@@ -1,0 +1,32 @@
+.moneris-checkout-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+#monerisCheckout {
+  max-width: 600px;
+  min-width: 0 !important;
+  position: relative;
+  margin: 0 auto;
+}
+
+#monerisCheckout:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  pointer-events: none;
+}
+#monerisCheckout[style*=static]:after {
+  display: none;
+}
+
+#monerisCheckout iframe#monerisCheckout-Frame {
+  max-width: 600px;
+  height: 800px !important;
+  margin: 0;
+  padding: 0;
+}
