@@ -37,7 +37,7 @@ configuration:
       step: complete
       weight: 4
       message:
-        value: "Your order number is [commerce_order:order_number].\r\nYou will receive the Receipt in your Email."
+        value: "Your order number is [commerce_order:order_number].\r\nYou will receive the Receipt in your Email.\r\nYou may close this browser window."
         format: plain_text
     order_summary:
       step: _sidebar

@@ -11,6 +11,7 @@ dependencies:
     - commerce_payment
     - commerce_product
     - contact
+    - file
     - filter
     - search
     - shortcut
@@ -27,6 +28,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'delete own files'
   - 'manage own commerce_payment_method'
   - 'post comments'
   - 'search content'
