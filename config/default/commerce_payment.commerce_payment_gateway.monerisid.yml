@@ -20,7 +20,7 @@ configuration:
   country_code: CA
   order_number_strategy: order_id_timestamp
   api_logging:
-    request: request
-    response: response
+    request: '0'
+    response: '0'
 conditions: {  }
-conditionOperator: OR
+conditionOperator: AND

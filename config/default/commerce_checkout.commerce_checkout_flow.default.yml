@@ -37,8 +37,8 @@ configuration:
       step: complete
       weight: 4
       message:
-        value: "Your order number is [commerce_order:order_number].\r\nYou will receive the Receipt in your Email.\r\nYou may close this browser window."
-        format: plain_text
+        value: '<p>Your order number is [commerce_order:order_number]. You will receive the Receipt in your Email.&nbsp;<br><span>It is very important that you </span><strong>keep a record of the Order no. and email&nbsp;to&nbsp;</strong><a href="mailto:gradadm.medieval@utoronto.ca"><strong>gradadm.medieval@utoronto.ca</strong></a><strong>&nbsp;</strong></p><p>You may close this browser window.</p>'
+        format: basic_html
     order_summary:
       step: _sidebar
       weight: 5
