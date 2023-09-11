@@ -2,9 +2,9 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: af44316b-794d-4349-8df7-bf1170e0edef
-name: 'Drupal9 Commerce admin:admin'
+name: 'Payment System'
 mail: drupal.empty@selectfix.com
-slogan: 'admin:admin'
+slogan: ''
 page:
   403: ''
   404: ''

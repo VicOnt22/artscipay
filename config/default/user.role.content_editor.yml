@@ -8,10 +8,16 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - comment
+    - commerce_payment
+    - commerce_price
+    - commerce_product
+    - commerce_store
+    - commerce_tax
     - contextual
     - file
     - node
     - path
+    - profile
     - system
     - taxonomy
     - toolbar
@@ -23,17 +29,34 @@ weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access commerce_product overview'
+  - 'access commerce_product_attribute overview'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
   - 'access toolbar'
+  - 'administer commerce_currency'
+  - 'administer commerce_payment'
+  - 'administer commerce_payment_method'
+  - 'administer commerce_product'
+  - 'administer commerce_product_attribute'
+  - 'administer commerce_product_type'
+  - 'administer commerce_store'
+  - 'administer commerce_store_type'
+  - 'administer commerce_tax_type'
   - 'administer url aliases'
   - 'create article content'
+  - 'create commerce_product_attribute'
+  - 'create default commerce_product'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any commerce_payment_method'
+  - 'delete any default commerce_product'
   - 'delete article revisions'
+  - 'delete commerce_product_attribute'
   - 'delete own article content'
+  - 'delete own default commerce_product'
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
@@ -41,7 +64,21 @@ permissions:
   - 'edit own comments'
   - 'edit own page content'
   - 'edit terms in tags'
+  - 'manage default commerce_product_variation'
   - 'revert all revisions'
+  - 'update any commerce_payment_method'
+  - 'update any default commerce_product'
+  - 'update any online commerce_store'
+  - 'update commerce_product_attribute'
+  - 'update own default commerce_product'
   - 'view all revisions'
+  - 'view any commerce_payment_method'
+  - 'view any profile'
+  - 'view commerce_product_attribute'
+  - 'view commerce_store'
+  - 'view default commerce_product'
+  - 'view online commerce_store'
+  - 'view own profile'
+  - 'view own unpublished commerce_product'
   - 'view own unpublished content'
   - 'view the administration theme'
