@@ -20,9 +20,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
-  links:
-    weight: 101
-    region: content
-hidden: {  }
+hidden:
+  links: true

@@ -68,4 +68,5 @@ module:
 theme:
   olivero: 0
   claro: 0
+  belgrade: 0
 profile: standard

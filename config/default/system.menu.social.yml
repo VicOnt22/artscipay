@@ -1,0 +1,10 @@
+uuid: 8ba14d24-3457-433e-8592-e9c14a1e637f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 92SGWu3OQwu92mZEUg6qQa0rBreAGpNrEUoVl5bMSzc
+id: social
+label: Social
+description: ''
+locked: false

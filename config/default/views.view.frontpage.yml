@@ -300,6 +300,9 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      defaults:
+        show_admin_links: false
+      show_admin_links: false
       display_extenders: {  }
       path: node
     cache_metadata:
