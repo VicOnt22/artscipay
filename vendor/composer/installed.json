@@ -1632,69 +1632,6 @@
             "install-path": "../../web/modules/contrib/backup_migrate"
         },
         {
-            "name": "drupal/belgrade",
-            "version": "2.0.0",
-            "version_normalized": "2.0.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/belgrade.git",
-                "reference": "2.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/belgrade-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "94741229b80316182c3baf6f8463a5f6b8674115"
-            },
-            "require": {
-                "drupal/core": "^9.2 || ^10"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1685694967",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "installation-source": "dist",
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "bojanz",
-                    "homepage": "https://www.drupal.org/user/86106"
-                },
-                {
-                    "name": "Centarro",
-                    "homepage": "https://www.drupal.org/user/3661446"
-                },
-                {
-                    "name": "jsacksick",
-                    "homepage": "https://www.drupal.org/user/972218"
-                },
-                {
-                    "name": "majmunbog",
-                    "homepage": "https://www.drupal.org/user/2414528"
-                },
-                {
-                    "name": "rszrama",
-                    "homepage": "https://www.drupal.org/user/49344"
-                }
-            ],
-            "description": "Belgrade theme for Drupal Commerce.",
-            "homepage": "https://drupal.org/project/belgrade",
-            "support": {
-                "source": "https://git.drupalcode.org/project/belgrade"
-            },
-            "install-path": "../../web/themes/contrib/belgrade"
-        },
-        {
             "name": "drupal/commerce",
             "version": "2.36.0",
             "version_normalized": "2.36.0.0",
@@ -2119,17 +2056,17 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.1.2",
-            "version_normalized": "10.1.2.0",
+            "version": "10.1.3",
+            "version_normalized": "10.1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "949779f2244b955bdd6946c8af5dee8054501fe6"
+                "reference": "0943d60970670a7f7c18ee24a800b3b87aac4641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/949779f2244b955bdd6946c8af5dee8054501fe6",
-                "reference": "949779f2244b955bdd6946c8af5dee8054501fe6",
+                "url": "https://api.github.com/repos/drupal/core/zipball/0943d60970670a7f7c18ee24a800b3b87aac4641",
+                "reference": "0943d60970670a7f7c18ee24a800b3b87aac4641",
                 "shasum": ""
             },
             "require": {
@@ -2206,7 +2143,7 @@
             "suggest": {
                 "ext-zip": "Needed to extend the plugin.manager.archiver service capability with the handling of files in the ZIP format."
             },
-            "time": "2023-08-02T10:10:11+00:00",
+            "time": "2023-09-07T15:19:51+00:00",
             "type": "drupal-core",
             "extra": {
                 "drupal-scaffold": {
@@ -2276,14 +2213,14 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.1.2"
+                "source": "https://github.com/drupal/core/tree/10.1.3"
             },
             "install-path": "../../web/core"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.1.2",
-            "version_normalized": "10.1.2.0",
+            "version": "10.1.3",
+            "version_normalized": "10.1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2329,14 +2266,14 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.1.2"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.1.3"
             },
             "install-path": "../drupal/core-composer-scaffold"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.1.2",
-            "version_normalized": "10.1.2.0",
+            "version": "10.1.3",
+            "version_normalized": "10.1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2373,23 +2310,23 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/10.1.2"
+                "source": "https://github.com/drupal/core-project-message/tree/10.1.3"
             },
             "install-path": "../drupal/core-project-message"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.1.2",
-            "version_normalized": "10.1.2.0",
+            "version": "10.1.3",
+            "version_normalized": "10.1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "f3d23274697b82081765296727ae765b7522caf5"
+                "reference": "d32977bba64355e7399cf63db4cea41b3172d6fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/f3d23274697b82081765296727ae765b7522caf5",
-                "reference": "f3d23274697b82081765296727ae765b7522caf5",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/d32977bba64355e7399cf63db4cea41b3172d6fa",
+                "reference": "d32977bba64355e7399cf63db4cea41b3172d6fa",
                 "shasum": ""
             },
             "require": {
@@ -2398,12 +2335,12 @@
                 "doctrine/annotations": "~1.14.3",
                 "doctrine/deprecations": "~v1.1.1",
                 "doctrine/lexer": "~2.1.0",
-                "drupal/core": "10.1.2",
+                "drupal/core": "10.1.3",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
                 "guzzlehttp/psr7": "~2.5.0",
                 "masterminds/html5": "~2.8.0",
-                "mck89/peast": "~v1.15.2",
+                "mck89/peast": "~v1.15.4",
                 "pear/archive_tar": "~1.4.14",
                 "pear/console_getopt": "~v1.4.3",
                 "pear/pear-core-minimal": "~v1.10.13",
@@ -2448,7 +2385,7 @@
             "conflict": {
                 "webflo/drupal-core-strict": "*"
             },
-            "time": "2023-08-02T10:10:11+00:00",
+            "time": "2023-09-07T15:19:51+00:00",
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2456,7 +2393,7 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.1.2"
+                "source": "https://github.com/drupal/core-recommended/tree/10.1.3"
             },
             "install-path": null
         },
