@@ -8,7 +8,7 @@ features:
   favicon: false
   node_user_picture: false
 logo:
-  path: 'public://artsci-logo2.png'
+  path: 'public://artsci-logo5.png'
   use_default: false
 inline_logo: 0
 fieldset_accordion: 0
