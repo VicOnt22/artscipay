@@ -19,3 +19,6 @@
   margin-right: 3rem;
   width: max-content;
 }
+.site-logo > img {
+  max-width: 100%;
+}
